@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Its my Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="calculator">
+      <div class="display" id="calculator-display">0</div>
+      <div class="buttons">
+        <button  class="button btn-clear row1-btn">C</button>
+        <button class="button btn-backspace row1-btn">←</button>
+        <button class="button" data-operator="/" id="right-side-btn">/</button>
+
+        <button class="button" data-number="7">7</button>
+        <button class="button" data-number="8">8</button>
+        <button class="button" data-number="9">9</button>
+        <button class="button" data-operator="*" id="right-side-btn">*</button>
+
+        <button class="button" data-number="4">4</button>
+        <button class="button" data-number="5" >5</button>
+        <button class="button" data-number="6">6</button>
+        <button class="button" data-operator="-" id="right-side-btn">-</button>
+
+        <button class="button" data-number="1">1</button>
+        <button class="button" data-number="2">2</button>
+        <button class="button" data-number="3">3</button>
+        <button class="button" data-operator="+" id="right-side-btn">+</button>
+
+        <button class="button btn-zero" data-number="0">0</button>
+        <button class="button" data-decimal=".">.</button>
+        <button class="button btn-equals" id="right-side-btn">=</button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
